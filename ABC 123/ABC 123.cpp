@@ -7,7 +7,7 @@ using namespace std;
 template <typename H>
 
 H Half(H InputNumber) {
-    cout << InputNumber / 2;
+    return InputNumber / 2;
 }
 
 int Half(int InputNumber) {
@@ -17,6 +17,14 @@ int Half(int InputNumber) {
 
 int main()
 {
-    
+    double a = 7.0;
+    float b = 5.0f;
+    int c = 3;
+
+    cout << Half(a) << endl
+        << Half(b) << endl
+        << Half(c) << endl;
+
+
 }
 
