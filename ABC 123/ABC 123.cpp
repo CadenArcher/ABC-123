@@ -16,11 +16,11 @@ using namespace std;
 template <typename H>
 
 H Half(H InputNumber) {//divide the number in half
-     InputNumber / 2;
+     return InputNumber / 2;
 }
 
 int Half(int InputNumber) {
-    return round(static_cast<double>(InputNumber));//returns a number rounded in half if its a int only
+    return round(static_cast<double>(InputNumber) / 2);//returns a number rounded in half if its a int only
 
 }
 
